@@ -16,3 +16,6 @@ vim.keymap.set("n", "<S-Down>", "<Cmd>resize +2<CR>", { desc = "Increase window 
 vim.keymap.set("n", "<S-Up>", "<Cmd>resize -2<CR>", { desc = "Decrease window height" })
 vim.keymap.set("n", "<S-Right>", "<Cmd>vertical resize -2<CR>", { desc = "Decrease window width" })
 vim.keymap.set("n", "<S-Left>", "<Cmd>vertical resize +2<CR>", { desc = "Increase window width" })
+
+vim.keymap.set("n", "<Esc><Esc>", "<Cmd>nohlsearch<CR>", { desc = "Clear search highlight" })
+vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
