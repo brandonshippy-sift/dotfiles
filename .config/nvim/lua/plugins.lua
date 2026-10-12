@@ -72,6 +72,21 @@ vim.pack.add({
 	{
 		src = "https://github.com/pwntester/octo.nvim",
 	},
+
+	-- noice, lsp overhaul and ui flaoting cmds (nui as well)
+	{
+		src = "https://github.com/folke/noice.nvim",
+		version = "v4.10.0",
+	},
+	{
+		src = "https://github.com/MunifTanjim/nui.nvim",
+	},
+
+	-- claude code
+	{
+		src = "https://github.com/coder/claudecode.nvim",
+		version = "v0.3.0",
+	},
 })
 
 -- i want to get cc, a terminal opener and update my status line this is todo
@@ -89,3 +104,5 @@ require("plugin_confs.blink")
 require("plugin_confs.colorscheme")
 require("plugin_confs.lsp.diagnostics")
 require("plugin_confs.octo")
+require("plugin_confs.noice")
+require("plugin_confs.claudecode")

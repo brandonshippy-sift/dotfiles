@@ -20,6 +20,8 @@ require("nvim-treesitter").install({
 	"tsx",
 	"dockerfile",
 	"javascript",
+	"vim",
+	"regex",
 })
 
 vim.api.nvim_create_autocmd("FileType", {
